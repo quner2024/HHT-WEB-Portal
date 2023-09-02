@@ -1,0 +1,12 @@
+curl 'http://10.10.16.12/api/portal/v1/login' \
+  -H 'Accept: application/json, text/javascript, */*; q=0.01' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/x-www-form-urlencoded; charset=UTF-8' \
+  -H 'Origin: http://10.10.16.12' \
+  -H 'Referer: http://10.10.16.12/portal/' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36' \
+  -H 'X-Requested-With: XMLHttpRequest' \
+  --data-raw '{"domain":"telecom","username":"XXXXXX","password":"XXXXXX"}' \
+  --compressed \
+  --insecure
